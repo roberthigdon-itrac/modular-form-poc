@@ -1,6 +1,6 @@
 {
   "name": "modular-form-poc",
-  "version": "0.0.8",
+  "version": "0.1.0",
   "description": "A simple web component",
   "main": "modular-form-poc.js",
   "module": "modular-form-poc.bundled.js",
