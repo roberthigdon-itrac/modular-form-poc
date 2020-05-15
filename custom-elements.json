@@ -1,0 +1,75 @@
+{
+  "version": "experimental",
+  "tags": [
+    {
+      "name": "modular-form-poc",
+      "path": "./modular-form-poc.js",
+      "description": "An example element.",
+      "attributes": [
+        {
+          "name": "message",
+          "type": "string"
+        },
+        {
+          "name": "apikey",
+          "description": "The site's web-api key",
+          "type": "string",
+          "default": "\"7fb35345-752d-4792-9480-cd3db6674a62\""
+        },
+        {
+          "name": "submitted",
+          "type": "boolean",
+          "default": "false"
+        },
+        {
+          "name": "submitting",
+          "type": "boolean",
+          "default": "false"
+        }
+      ],
+      "properties": [
+        {
+          "name": "message",
+          "attribute": "message",
+          "type": "string"
+        },
+        {
+          "name": "apikey",
+          "attribute": "apikey",
+          "description": "The site's web-api key",
+          "type": "string",
+          "default": "\"7fb35345-752d-4792-9480-cd3db6674a62\""
+        },
+        {
+          "name": "submitted",
+          "attribute": "submitted",
+          "type": "boolean",
+          "default": "false"
+        },
+        {
+          "name": "submitting",
+          "attribute": "submitting",
+          "type": "boolean",
+          "default": "false"
+        },
+        {
+          "name": "formData",
+          "type": "object",
+          "default": "{\"name\":null,\"email\":null,\"phone\":null}"
+        }
+      ],
+      "slots": [
+        {
+          "name": "",
+          "description": "This element has a slot"
+        }
+      ],
+      "cssParts": [
+        {
+          "name": "button",
+          "description": "The button"
+        }
+      ]
+    }
+  ]
+}
